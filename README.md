@@ -68,7 +68,6 @@ The project follows the **Medallion Lakehouse Architecture**:
 - Databricks
 - Apache Spark
 - DBT (Data Build Tool)
-- PySpark
 
 ## Cloud Platform
 - AWS S3
@@ -179,23 +178,6 @@ Transformations include:
 - Data type corrections
 
 
-Example:
-
-Before:
-
-|customer_id|name|email|
-|-|-|-|
-|101|John|NULL|
-
-
-After:
-
-|customer_id|name|email|
-|-|-|-|
-|101|John|unknown@email.com|
-
-
----
 
 ## Schema Evolution
 
@@ -578,6 +560,3 @@ Skills:
 - Python
 
 
----
-
-⭐ If you like this project, consider giving it a star!
